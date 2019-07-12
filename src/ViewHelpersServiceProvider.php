@@ -8,11 +8,11 @@ class ViewHelpersServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-
+        //
     }
 
     public function register()
     {
-        $this->loadViewsFrom(__DIR__ . '/resources/views', 'viewhelpers');
+        //$this->loadViewsFrom(__DIR__ . '/resources/views', 'viewhelpers');
     }
 }
