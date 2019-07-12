@@ -1,0 +1,29 @@
+{
+    "name": "deanblackborough/viewhelpers",
+    "description": "testing",
+    "authors": [
+        {
+            "name": "Dean Blackborough",
+            "email": "dean@g3d-development.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DBlackborough\\ViewHelpers\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/deanblackborough/viewhelpers"
+        }
+    ],
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DBlackborough\\ViewHelpers\\ViewHelpersServiceProvider"
+            ]
+        }
+    }
+}
