@@ -18,12 +18,5 @@
             "url": "https://github.com/deanblackborough/viewhelpers"
         }
     ],
-    "license": "MIT",
-    "extra": {
-        "laravel": {
-            "providers": [
-                "DBlackborough\\ViewHelpers\\ViewHelpersServiceProvider"
-            ]
-        }
-    }
+    "license": "MIT"
 }
