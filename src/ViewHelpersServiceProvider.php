@@ -1,6 +1,6 @@
 <?php
 
-namespace DeanBlackborough\ViewHelpers;
+namespace DBlackborough\ViewHelpers;
 
 use Illuminate\Support\ServiceProvider;
 
