@@ -11,7 +11,7 @@ class ViewHelpersServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/resources/views', 'viewhelpers');
 
         $this->publishes([
-            __DIR__ . '/resources/views/' => resource_path('views/vendor/viewhelpers')
+            __DIR__ . '/resources/views' => resource_path('views/vendor/viewhelpers')
         ]);
     }
 
